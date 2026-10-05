@@ -1,17 +1,51 @@
-<!DOCTYPE html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <html>
-<body>
+<head>
+<title>Milton Building services</title>
+<link href="cssnjs/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="cssnjs/main.js"></script>
+<script src="cssnjs/jquery-latest.min.js"></script>
+</head>
+<body onload="fullurl();ajaxpage('contents/home.htm', 'content')">
+<div id="center" align="center" style="height:auto;">
+<div id="wrap">
+	<div id="header">
+		<div id="milton"><a href="index.html" title="Milton building services"><img src="images/milton.png"></a></div>
+		<div  id="building"><img src="images/buildingservices.png"></div>
+		<div id="contact"><a href="#" onclick="ajaxpage('contents/contactus.htm','content')">Contact us</a></div>
+		<div id="sitemap"><a href="#" onclick="createsitemap('content')">Sitemap</a></div>		
+	</div>
+	<div id="topline"><div id="toplinehover"></div>
+	<div id="toplinemenu"><!--<div id="toplinehover"></div><div id="linehoveractive"></div>-->
+	</div>
+	</div>
+	<div id="topmenu">
+		<div id="hmenu">
+		</div>
+		<div id="topsubmenu"></div>
+		<div id="topsubmenu1"></div>
+	</div>
+	<div id="slideshow"></div>
+	<div id="page">
+		<div id='lefttreemenu'>
 
-<h2>VIDEO</h2>
-
-<dl>
-  <dt>VIDEO Facebook</dt>
-	<dd><a href="VideoFB/Nam2021.html">Năm 2021</a></dd>
-	<dd><a href="VideoFB/Nam2022.html">Năm 2022</a></dd>
-	<dd><a href="VideoFB/Nam2023.html">Năm 2023</a></dd>
-  <dt>new...</dt>
-</dl>
-
+		</div>
+		<div id="content">
+		<!--Content in here-->
+		</div>
+		<div id="rightcontent">
+			<!--Quang Cao-->
+		</div>		
+	</div>
+	
+	<div id="bottomline"><div id="bottomlinehover"></div></div>
+	<div id="footer">
+		<div id="footercopyright"><span>@Copyright by Plutonidesign 2011</span></div>
+		<div id="footermenu"></div>
+	</div>
+</div>
+</div>
 </body>
+<script type="text/javascript">
+	main();
+</script>
 </html>

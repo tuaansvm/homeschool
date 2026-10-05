@@ -1,0 +1,27 @@
+<menus indexcount="21" subindexcount="4">
+<menu action="" name="Home" url="home.htm" index="1" />
+<menu action="" name="About us" url="aboutus.htm" index="2" subindex="1">
+	<submenu action="" name="The company" url="aboutus.htm#thecompany" index="3" /> 
+	<submenu action="" name="Our team" url="aboutus.htm#ourteam" index="4" />
+</menu>
+<menu action="" name="Our services" url="ourservices.htm" index="5" subindex="2">
+	<submenu action="" name="Constructions &amp; Renovations" url="Constructions.htm" index="6" />
+	<submenu action="" name="Building services" url="Buildingservices.htm" index="7" subindex="3">
+		<submenu1 action="" name="Carpentry" url="Buildingservices.htm#carpentry" index="8"/>
+		<submenu1 action="" name="Roofing &amp; Guttering" url="Buildingservices.htm#roofing" index="9" />
+		<submenu1 action="" name="Decking, Patios &amp; Verandas" url="Buildingservices.htm#decking" index="10" />
+		<submenu1 action="" name="Fencing &amp; Painting" url="Buildingservices.htm#fencing" index="11" />
+		<submenu1 action="" name="Tiling &amp; Floors" url="Buildingservices.htm#tiling" index="12" />
+		<submenu1 action="" name="Plastering &amp; Rendering" url="Buildingservices.htm#plastering" index="13" />
+		<submenu1 action="" name="Bathroom &amp; Renovations" url="Buildingservices.htm#bathroom" index="14" />
+	</submenu>
+	<submenu action="" name="Architecture &amp; Design" url="Architecture.htm" index="15" />
+</menu>
+<menu action="" name="Our policy" url="OurPolicy.htm" index="16" />
+<menu action="" name="Projects" url="projects.htm" index="17" subindex="4">
+	<submenu action="proclick(1);loadproject('newhouseplans.xml');progallery('content',1)" name="New house plans" url="Newhouseplans.htm" index="18" /> 
+	<submenu action="proclick(1);loadproject('houserenovations.xml');progallery('content',1)" name="House renovations" url="Houserenovations.htm" index="19" />
+</menu>
+<menu action="" name="Contact us" url="contactus.htm" index="20" />
+<menu action="" name="Sitemap" url="sitemap.htm" index="21" />
+</menus>

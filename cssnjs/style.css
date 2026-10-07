@@ -23,6 +23,23 @@ body {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#
 #header #contact a , #header #contact a:visited {text-decoration:none; color:#000000/*#393939*/; padding-left:10px;}
 #header #contact a:hover, #header #sitemap a:hover{color:#6A6A6A}
 
+.logo-text {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+    color: #e0e0e0;
+    text-decoration: none;
+    text-shadow: 
+        -1px -1px 0 #fff,  
+         1px -1px 0 #fff,
+        -1px  1px 0 #fff,
+         1px  1px 0 #fff,
+         2px  2px 4px rgba(0,0,0,0.4);
+    display: inline-block;
+    line-height: 120px;
+}
+
 #topline {background:url(../images/line.png) repeat-x;margin:0px; padding:0px; height:6px;}
 #toplinemenu{width:720px; float:left; height:6px; margin-left:264px;/* position: absolute;  z-index:1;*/}
 /*#topline .lineactive {background:url(../images/linehorver.png) repeat-x;margin:0px; padding:0px; height:6px; width:129px;display:block; position: absolute;z-index:1; left:410px;}*/

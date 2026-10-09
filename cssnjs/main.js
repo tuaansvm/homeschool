@@ -972,7 +972,7 @@ function loadslideshow(slideshowid)
 	var strimg = '<div class="neoslideshow">';
 	for (i=0;i<x.length;i++)
 	{
-		strimg += '<img src="images/slide/' + x[i].getAttribute("url") + '" width="984" height="284"/>';
+		strimg += '<img src="images/slide/' + x[i].getAttribute("url") + '" width="984" height="84"/>';
 	}
 	strimg += '</div>';
 	document.getElementById(slideshowid).innerHTML = strimg;

@@ -972,7 +972,7 @@ function loadslideshow(slideshowid)
 	var strimg = '<div class="neoslideshow">';
 	for (i=0;i<x.length;i++)
 	{
-		strimg += '<img src="images/slide/' + x[i].getAttribute("url") + '" width="984" height="84"/>';
+		strimg += '<img src="images/slide/' + x[i].getAttribute("url") + '" width="984" height="28"/>';
 	}
 	strimg += '</div>';
 	document.getElementById(slideshowid).innerHTML = strimg;
@@ -1066,7 +1066,7 @@ function main()
 	loadtopmenu('hmenu',0);
 	//linehoveractive('topmenu0','toplinemenu');
 	createfootermenu('footermenu',0);
-	loadslideshow('slideshow');
+	//loadslideshow('slideshow');
 	loadadvertise('rightcontent');
 	//fixlineactive()
 	$(function() {
